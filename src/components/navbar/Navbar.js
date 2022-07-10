@@ -9,7 +9,7 @@ export class Navbar extends Component {
         return (
             <nav className="navbar navbar-expand-sm navbar-light">
                 <div className="container-fluid">
-                    <Link className="display-6" to="/" style={{textDecoration: "none", color:"inherit"}}><strong>Sudipta Paul</strong></Link>
+                    <Link className="display-6" to="/myPortfolio" style={{textDecoration: "none", color:"inherit"}}><strong>Sudipta Paul</strong></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
