@@ -8,7 +8,7 @@ export class Card extends Component {
         return (
             <div className="col-md-6 my-2">
                 <div className="card" style={{width: "100%"}}>
-                    <Link style={{color: "inherit", textDecoration: "none"}} to={"/work/" + data.id}>
+                    <Link style={{color: "inherit", textDecoration: "none"}} to={"/myPortfolio/work/" + data.id}>
                         <img src={require(`../../static/thumbnails/${data.thumbnail}`)} className="card-img-top" alt="..."></img>
                         <div className="card-body">
                         <h5 className="card-title">{data.title}</h5>

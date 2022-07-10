@@ -15,9 +15,9 @@ export class Navbar extends Component {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav ms-auto">
-                            <Link className="nav-link" to="/">Home</Link>
-                            <Link className="nav-link" to="/resume">Resume</Link>
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="/myPortfolio">Home</Link>
+                            <Link className="nav-link" to="/myPortfolio/resume">Resume</Link>
+                            <Link className="nav-link" to="/myPortfolio/contact">Contact</Link>
                             {/* <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> */}
                         </div>
                     </div>
